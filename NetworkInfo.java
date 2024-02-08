@@ -3,7 +3,15 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
+/** Project:NetworkInfo
+ * Purpose Details: USed to get network info on user device
+ * Course:IST242
+ * Author:Jacobo Medina
+ * Date Developed: 2-08-2024
+ * Last Date Changed: 2-08-2024
+ * Rev:2-08-2024
 
+ */
 public class NetworkInfo {
     public static void main(){
         try {

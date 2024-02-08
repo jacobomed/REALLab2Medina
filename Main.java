@@ -1,9 +1,19 @@
+//Jacobo Medina
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
+
+
+/**
+ * The Main class is used to create the menu and run the available options
+ * It will give the user the option to select the option of what they want
+ */
+
+}
 public class Main {
     public static void main(String[] args) throws UnknownHostException {
         Scanner scanner = new Scanner((System.in));
@@ -23,8 +33,8 @@ public class Main {
                 NetworkPing.main();
                 break;
             case 2:
-                RouterTable.main();
                 System.out.println("Your Routing Table: ");
+                RouterTable.main();
                 break;
             case 3:
                 System.out.println("Your Network Info: ");
@@ -38,6 +48,9 @@ public class Main {
         }
     }
 
+    /**
+     * displayMenu() was used to create the text for the menu. This is used to select which option you wish to perform
+     */
     private static void displayMenu() {
 
         System.out.println("1. Ping Host");

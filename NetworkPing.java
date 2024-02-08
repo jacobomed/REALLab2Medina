@@ -1,3 +1,16 @@
+/** Project: NetworkPing
+ * Purpose Details: To ping a chosen URL
+ * Course: IST242
+ * Author:Jacobo Medina
+ * Date Developed:2-08-2024
+ * Last Date Changed:2-08-2024
+ * Rev:2-08-2024
+
+ */
+
+
+
+
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
