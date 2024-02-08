@@ -2,15 +2,15 @@
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 public class NetworkPing {
-    public static void main(String[] args){
-        String hostName = "www.disney.com";
+    public static void main(){
+        String hostName = "www.etcsnw374e.cm";
 
         try{
             InetAddress inetAddress = InetAddress.getByName(hostName);
-            if (inetAddress.isReachable(6000)){
-                System.out.println(hostName + "is reachable");
+            if (inetAddress.isReachable(5000)){
+                System.out.println(hostName + " is reachable");
             } else {
-                System.out.println(hostName + "is not reachable");
+                System.out.println(hostName + " is not reachable");
             }
         } catch (UnknownHostException e) {
             System.err.println("Unknown host: " + hostName);

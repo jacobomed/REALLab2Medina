@@ -1,12 +1,11 @@
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
-import java.net.SocketImplFactory;
 import java.util.Enumeration;
 
 
 public class NetworkInfo {
-    public static void main(String[] args){
+    public static void main(){
         try {
             InetAddress localhost = InetAddress.getLocalHost();
             System.out.println("Local Hostname: " + localhost.getHostName());

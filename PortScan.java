@@ -27,7 +27,7 @@ import java.io.IOException;
 
 
 public class PortScan {
-    public static void main(String[] args) {
+    public static void main() {
         String targetHost = "localhost";
         int maxPort = 65535;
         int minPort = 1;
