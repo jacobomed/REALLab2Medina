@@ -13,7 +13,7 @@ import java.util.Scanner;
  * It will give the user the option to select the option of what they want
  */
 
-}
+
 public class Main {
     public static void main(String[] args) throws UnknownHostException {
         Scanner scanner = new Scanner((System.in));
