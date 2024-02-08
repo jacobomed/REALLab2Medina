@@ -16,7 +16,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 public class NetworkPing {
     public static void main(){
-        String hostName = "www.etcsnw374e.cm";
+        String hostName = "www.disney.com";
 
         try{
             InetAddress inetAddress = InetAddress.getByName(hostName);
